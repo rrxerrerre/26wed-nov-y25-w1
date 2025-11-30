@@ -1,49 +1,75 @@
 header {
   display: inline-block;
-  text-align: center;
-}
-header {
-  display: block;
+  margin: 2 rem;
   width: 100%;
-  margin: 5rem auto;
   text-align: center;
 }
-
+.logo-img {
+  width: 150px;
+}
 .light-yellow {
   width: 100%;
   font-size: 15px;
   background-color: #fffbf1;
   border-top: 1px solid #ffd977;
   color: #117777;
+  height: 25px;
 }
 
+.lafocaccia {
+  width: 100%;
+  border-radius: 10px;
+}
+.caption {
+  opacity: 80%;
+}
+.feat-block {
+  text-align: left;
+  border-left: 2px solid #ffc175;
+  padding-left: 1em;
+}
 .feat {
   color: #b5460f;
+  margin: auto;
 }
 .double-text {
   color: #117777;
   text-decoration-line: #117777;
+  margin: 0;
   /*perchè non riesco a modificare il colore della linea della sottolineatura di collegamento ipertestuale*/
 }
-line {
+.line-one {
   color: #117777;
+  background: #117777;
+  border: 0;
+  height: 1px;
+}
+.line-two {
+  color: #117777;
+  background: #117777;
+  border: 0;
+  height: 1px;
 }
 
-.feat-block p a {
-}
 .bullets li {
   color: #117777;
   text-align: left;
 }
 main {
   display: block;
-  width: 40vw;
+  width: 600px;
   margin: 5rem auto;
   text-align: center;
+  margin-block: 20px;
 }
-.img-focaccia {
-  text-align: center;
-}
+
 .list-list {
   text-align: left;
+}
+li {
+  padding: 10px;
+}
+
+.little-simply {
+  color: #117777;
 }
