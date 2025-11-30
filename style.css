@@ -1,52 +1,49 @@
-<style>
-        header {
-            display: inline-block;
-            text-align: center;
-        }
-        .light-yellow {
-            font-size: 15px;
-            background-color: #FFFBF1;
-            border-top: 1px solid #FFD977;
-            color: #117777
-            border-top-widht: 2px;
-            width: 100%;
-        }
-        .feat {
-            color: #B5460F
-        }
-        .double-text {
-            color: #117777;
-            text-decoration-line:#117777
-            /*perchè non riesco a modificare il colore della linea del sottolineatura di collegamento ipertestuale*/
-        }
-        line {
-            color:#117777
-        }
-        .footer {
-            color:#117777
-        }
-        .feat-block p a {
-            border: 0
-        }
-        .bullets li {
-            color: #117777;
-        }
-        main {
-            display: block;
-            width: 40vw;
-            margin: 5rem auto;
-            text-align: center;
-        }
-        .list-list {
-            text-align: left;
-        }
-        .img-focaccia {
-            border-radius: 10px;
-        }
-        header {
-            display: block;
-            width: 100vw;
-            margin: 5rem auto;
-            text-align: center;
-        }
-</style>
+header {
+  display: inline-block;
+  text-align: center;
+}
+header {
+  display: block;
+  width: 100%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.light-yellow {
+  width: 100%;
+  font-size: 15px;
+  background-color: #fffbf1;
+  border-top: 1px solid #ffd977;
+  color: #117777;
+}
+
+.feat {
+  color: #b5460f;
+}
+.double-text {
+  color: #117777;
+  text-decoration-line: #117777;
+  /*perchè non riesco a modificare il colore della linea della sottolineatura di collegamento ipertestuale*/
+}
+line {
+  color: #117777;
+}
+
+.feat-block p a {
+}
+.bullets li {
+  color: #117777;
+  text-align: left;
+}
+main {
+  display: block;
+  width: 40vw;
+  margin: 5rem auto;
+  text-align: center;
+}
+.img-focaccia {
+  text-align: center;
+}
+.list-list {
+  text-align: left;
+}
